@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Definitions/MainMenu.uss?fileID=7433441132597879392&amp;guid=d73add44912f8794bab9ff8c1388290c&amp;type=3#MainMenu" />
+    <ui:VisualElement name="GameLogo" style="position: absolute; bottom: 60%; align-self: center; align-items: center; height: 20%; justify-content: flex-end; width: 100%;">
+        <ui:Image style="--unity-image: url(&apos;project://database/Assets/Resources/UI/Sprites/GameLogo.png?fileID=21300000&amp;guid=d45c8825a20fc7d418ad6e00eabbb4a8&amp;type=3#GameLogo&apos;); width: 100%; height: 100%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="MainMenuGroup" style="bottom: 10%; position: absolute; align-items: center; justify-content: space-between; align-self: center; height: 380px; width: 300px;">
+        <ui:Button text="싱글 플레이" parse-escape-sequences="true" display-tooltip-when-elided="true" binding-path="MainMenu.SinglePlayButton" name="SinglePlayButton" class="main-menu-button" />
+        <ui:Button text="멀티 플레이" parse-escape-sequences="true" display-tooltip-when-elided="true" enabled="false" binding-path="MainMenu.MultiPlayButton" name="MultiPlayButton" class="main-menu-button" />
+        <ui:Button text="크레딧" parse-escape-sequences="true" display-tooltip-when-elided="true" binding-path="MainMenu.CreditButton" name="CreditButton" class="main-menu-button" />
+        <ui:Button text="종료" parse-escape-sequences="true" display-tooltip-when-elided="true" binding-path="MainMenu.QuitButton" name="QuitButton" class="main-menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

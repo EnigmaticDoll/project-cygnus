@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Definitions/MainMenu.uss?fileID=7433441132597879392&amp;guid=d73add44912f8794bab9ff8c1388290c&amp;type=3#MainMenu" />
+    <ui:RadioButtonGroup class="radio-button-card-shape-group">
+        <ui:RadioButton class="radio-button-card-shape">
+            <ui:VisualElement class="player-mech-card">
+                <ui:Image class="card-image" />
+                <ui:Label text="Card Title" class="card-title" />
+                <ui:Label text="This is a description. 1" class="card-description" />
+            </ui:VisualElement>
+        </ui:RadioButton>
+        <ui:RadioButton class="radio-button-card-shape">
+            <ui:VisualElement class="player-mech-card">
+                <ui:Image class="card-image" />
+                <ui:Label text="Card Title" class="card-title" />
+                <ui:Label text="This is a description. 2" class="card-description" />
+            </ui:VisualElement>
+        </ui:RadioButton>
+    </ui:RadioButtonGroup>
+</ui:UXML>

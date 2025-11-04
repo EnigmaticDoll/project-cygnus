@@ -1,0 +1,37 @@
+.main-menu-button {
+    -unity-font: initial;
+    -unity-font-definition: resource('UI/Fonts/Hahmlet-VariableFont SDF');
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 0.5px;
+    -unity-text-outline-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-style: bold;
+    border-top-width: 0.5px;
+    border-bottom-width: 0.5px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-left-color: rgba(200, 200, 200, 0.39);
+    border-right-color: rgba(200, 200, 200, 0.39);
+    border-top-color: rgba(200, 200, 200, 0.39);
+    border-bottom-color: rgba(200, 200, 200, 0.39);
+    font-size: 30px;
+    width: 100%;
+}
+
+.main-menu-button:hover {
+    border-left-color: rgba(255, 255, 255, 0.78);
+    border-right-color: rgba(255, 255, 255, 0.78);
+    border-top-color: rgba(255, 255, 255, 0.78);
+    border-bottom-color: rgba(255, 255, 255, 0.78);
+}
+
+.main-menu-button:disabled {
+    opacity: 0.3;
+}
+
+.radio-button-card-shape .unity-radio-button__checkmark-background {
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+}
